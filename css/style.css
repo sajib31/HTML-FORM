@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3, h4, h5,h6, p{
+    padding: 0;
+    margin: 0; 
+}
+.bg{
+    background-image: url(../images/park-3116883_1920.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 100px 0;
+    background-attachment: fixed;
+}
+.heading{
+
+color: #fff;
+
+text-align: center;
+
+font-size: 25px;
+
+margin-bottom: 50px;
+}
+.contact_form{
+
+width: 70%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+}
+.contact_info{
+
+width: 48%;
+}
+.contact_info h3{
+
+color: #fff;
+
+font-size: 25px;
+
+margin-bottom: 25px;
+}
+.info_box{
+    display: flex;
+    margin-bottom: 30px;
+}
+.icon{color: #fff;width: 30px;font-size: 25px;}
+.info{
+
+color: #ffffffd9;
+}
+.info h4{
+
+font-size: 20px;
+
+color: ##ffffff66;
+}
+.info p{
+    margin-top: 8px;
+    color: #fffffff7;
+}
+.main_form{
+
+width: 48%;
+}
+.form{
+
+background: #fff;
+
+padding: 30px;
+
+border-radius: 10px;
+}
+.form h2{
+
+margin-bottom: 30px;
+
+font-size: 26px;
+}
+.form form input{
+
+width: 100%;
+
+margin-bottom: 14px;
+
+padding: 14px 0 14px 10px;
+
+border: 1px solid #dedede;
+}
+.form form input[type="submit"]{
+
+width: auto;
+
+padding: 0;
+
+background: #006fdcf2;
+
+color: #fff;
+
+padding: 15px 14px;
+
+border-radius: 7px;
+
+font-size: 15px;
+cursor: pointer;
+}
+.form form textarea{
+
+width: 100%;
+
+margin-bottom: 14px;
+
+padding: 14px 0 14px 10px;
+
+border: 1px solid #dedede;
+}
